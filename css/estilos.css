@@ -1,0 +1,76 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode';
+  font-size: 90%;
+  color: #666;
+  background-image: url(../images/img2.png);
+}
+
+h1 {
+  font-family: Lucida Blackletter;
+  font-size: 36px;
+  text-align: center;
+  color: #f3d2e1;
+}
+h2 {
+  text-align: center;
+  color: #f3d2e1;
+}
+table {
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  top: 40%;
+  margin-top: 1px;
+  border-collapse: separate;
+  border: black 2px solid;
+}
+th,
+td {
+  padding: 5px 30px 5px 10px;
+  border-spacing: 0px;
+  font-size: 90%;
+  margin: 0px;
+  border: black 2px solid;
+}
+
+th,
+td {
+  text-align: center;
+  background-color: #ffffff;
+  border: black 2px solid;
+}
+
+tr.head th {
+  color: black;
+  background-color: #f8c8f2;
+  text-align: center;
+  letter-spacing: 0.15em;
+  border: black 2px solid;
+}
+td {
+  text-shadow: 1px 1px 1px #ffffff;
+  border: black 2px solid;
+}
+
+tr.even td,
+tr.even th {
+  background-color: #f8c8f2;
+  border: black 2px solid;
+}
+
+tr.head th:first-chils {
+  border: black 2px solid;
+}
+
+tr.head th:last-child {
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-right-radius: 5px;
+  border: black 2px solid;
+}
+hr {
+  text-align: center;
+  width: 80%;
+  border: 1px dashed #b40adf;
+}
